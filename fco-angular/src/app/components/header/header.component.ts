@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  //Lifecycle method
   ngOnInit(): void {
   }
 
