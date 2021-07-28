@@ -16,7 +16,8 @@ export class ButtonComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  // Problem with Emit and btnClick -- continue from here!
+  // By creating an Emitter you can now re-use the button component but give it diffrent functions
+  // depending on what you want it to do and where in the project.
   onClick() {
     console.log('We in!')
     this.btnClick.emit();
