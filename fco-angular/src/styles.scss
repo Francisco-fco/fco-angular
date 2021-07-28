@@ -17,7 +17,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 7px solid steelblue;
   padding: 30px;
   border-radius: 5px;
 }
@@ -34,6 +34,9 @@ body {
   font-size: 15px;
   font-family: inherit;
 }
+.btn:hover {
+  background-color: steelblue;
+}
 .btn:focus {
   outline: none;
 }
@@ -45,6 +48,7 @@ body {
   display: block;
   width: 100%;
 }
+
 
 .form-control {
   margin: 20px 0;
