@@ -11,7 +11,10 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   //Lifecycle method
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  toggleAddTask() {
+    console.log('VÄXLAR');
   }
 
 }
