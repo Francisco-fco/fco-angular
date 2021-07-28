@@ -1,1 +1,8 @@
-<button [ngStyle]="{'background-color': color}" class="btn">Click</button>
+<!-- The ngStyle is getting its color from = header.component.html 
+      text is also manipulated in = header.component.html -->
+<button [ngStyle]="{'background-color': color}" 
+class="btn"
+(click)="onClick()"
+>
+    {{ text }}
+</button>
