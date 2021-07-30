@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
 import {Task} from '../../Task';
+import {TASKS} from '../../mock-tasks';
 
 @Component({
   selector: 'app-tasks',
@@ -8,7 +9,7 @@ import {Task} from '../../Task';
   styleUrls: ['./tasks.component.scss']
 })
 export class TasksComponent implements OnInit {
-  tasks: Task[] = [];
+  tasks: Task[] = TASKS;
 
   // In order to import and use a service 
   // you need to implement it in the constructor.
