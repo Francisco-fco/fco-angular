@@ -1,5 +1,5 @@
-{ 
-    "tasks":[
+{
+  "tasks": [
     {
       "id": 1,
       "text": "Möte",
@@ -15,7 +15,13 @@
     {
       "id": 3,
       "text": "Möte",
-      "day": "12 oktoberber kl 10:30",
+      "day": "12 oktoberber kl 11:30",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Möte",
+      "day": "12 oktoberber kl 11:30",
       "reminder": false
     }
   ]
