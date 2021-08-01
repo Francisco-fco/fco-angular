@@ -1,4 +1,5 @@
-<div class="task">
+<!-- Adds to the class if reminder is true! -->
+<div [ngClass]="{ reminder: task.reminder }" class="task">
     <h3>
         {{ task.text }}
         <fa-icon

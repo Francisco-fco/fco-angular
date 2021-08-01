@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Möte",
+      "day": "27 September kl 13:00",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Family roadtrip",
+      "day": "30 September kl 09:00",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Möte",
+      "day": "12 oktober kl 11:30",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Boxning",
+      "day": "18 oktober kl 17:30",
+      "reminder": true
+    }
+  ]
+}
