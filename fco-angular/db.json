@@ -22,7 +22,7 @@
       "id": 4,
       "text": "Boxning",
       "day": "18 oktober kl 17:30",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
