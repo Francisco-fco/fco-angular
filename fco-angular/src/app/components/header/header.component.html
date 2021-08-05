@@ -1,9 +1,10 @@
 <header>
   <h1>{{ title }}</h1>
-  <!-- Emitter makes this button re-usable with new implemented logic -->
+  <!-- Emitter makes this button re-usable with new implemented logic.
+      ? = if : = else -->
   <app-button 
-    color="green" 
-    text="Add" 
+    color="{{showAddTask ? 'red' : 'green'}}" 
+    text="{{showAddTask ? 'Close' : 'Add'}}" 
     (btnClick)="toggleAddTask()">
   </app-button>
 </header>

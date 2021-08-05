@@ -1,4 +1,6 @@
+import { UiService } from './../../services/ui.service';
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'fco-angular';
+  showAddTask: boolean = true;
+  subscription: Subscription;
 
-  constructor() { }
+
+  constructor(private uiService:UiService) {
+    this.subscription = this.uiService
+      .onToggle()
+      .subscribe((value) => (this.showAddTask = value));
+   }
 
   //Lifecycle method
   ngOnInit(): void {}
 
   toggleAddTask() {
     console.log('VÄXLAR');
+    this.uiService.toggleAddTask();
   }
 
 }
