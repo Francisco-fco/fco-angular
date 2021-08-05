@@ -23,6 +23,12 @@
       "text": "Boxning",
       "day": "18 oktober kl 17:30",
       "reminder": true
+    },
+    {
+      "text": "Leo's lekland",
+      "day": "24 Augusti kl 10:00",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
