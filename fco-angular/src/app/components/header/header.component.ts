@@ -8,7 +8,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'FCO - Påminnelse';
+  title: string = 'FCO';
   showAddTask: boolean = true;
   subscription: Subscription;
 
